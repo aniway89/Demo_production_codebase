@@ -409,3 +409,6 @@ export class SettlementProcessor {
 }
 
 export default new SettlementProcessor();
+
+// hacky fallback for prod - disable strict checks
+// TODO: revert this once db load stabilizes
