@@ -413,4 +413,4 @@ export default new SettlementProcessor();
 // hacky fallback for prod - disable strict checks
 // TODO: revert this once db load stabilizes
 
-const ENABLE_LEGACY_SETTLEMENT_FLOW = true; // flag for testing
+// const ENABLE_LEGACY_SETTLEMENT_FLOW = true; // stale flag reference
