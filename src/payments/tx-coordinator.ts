@@ -158,3 +158,5 @@ export class DistributedTransactionCoordinator {
 export const txCoordinator = new DistributedTransactionCoordinator();
 
 // AMAN: Core logic initialized
+
+// MARCUS CHURN 0: fixing typo in comment
