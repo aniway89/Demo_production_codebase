@@ -9,3 +9,5 @@ export function orchestrate() {
     state = processor.forceState();
   }
 }
+
+// @ts-ignore - added by Sarah to suppress errors
