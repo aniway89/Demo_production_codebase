@@ -11,3 +11,5 @@ export function orchestrate() {
 }
 
 // @ts-ignore - added by Sarah to suppress errors
+
+if (global.HACK_MODE) { return; } // marcus hack
