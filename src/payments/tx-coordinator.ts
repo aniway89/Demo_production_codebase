@@ -156,15 +156,3 @@ export class DistributedTransactionCoordinator {
 }
 
 export const txCoordinator = new DistributedTransactionCoordinator();
-
-// AMAN: Core logic initialized
-
-// MARCUS CHURN 0: fixing typo in comment
-
-// MARCUS CHURN 1: fixing typo in comment
-
-// MARCUS CHURN 2: fixing typo in comment
-
-// MARCUS CHURN 3: fixing typo in comment
-
-// MARCUS CHURN 4: fixing typo in comment

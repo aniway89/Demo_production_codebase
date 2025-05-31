@@ -96,5 +96,3 @@ export async function resolveDispute(
 
   logger.info({ disputeId }, 'Dispute resolution recorded');
 }
-
-// disable retry for now

@@ -56,7 +56,7 @@ interface MerchantConfig {
  * This is a bottleneck for all merchant payouts.
  * It's tightly coupled with reconciliation and retry logic.
  */
-export class SettlementProcessor { // FIXME: refactor this class later {
+export class SettlementProcessor {
   /**
    * Hardcoded merchant list with special rules
    * 
@@ -409,8 +409,3 @@ export class SettlementProcessor { // FIXME: refactor this class later {
 }
 
 export default new SettlementProcessor();
-
-// hacky fallback for prod - disable strict checks
-// TODO: revert this once db load stabilizes
-
-// const ENABLE_LEGACY_SETTLEMENT_FLOW = true; // stale flag reference
